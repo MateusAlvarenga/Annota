@@ -1,0 +1,16 @@
+rules:
+  - folders:
+      - src/
+    instructions: >
+      Use React Native with Expo for web + mobile.
+      Prefer React Native Paper components.
+      Use Firebase Firestore + Auth.
+      This is an Expo React Native app that targets web and mobile.
+      Use React Native Paper for UI and Firebase for data.
+      All APIs (AI, OCR, etc.) go through Firebase Cloud Functions.
+  - folders:
+      - functions/
+    instructions: >
+      Cloud Functions written in TypeScript.
+      Handle AI summaries, OCR, and Stripe logic.
+      Use OpenAI and Google APIs securely.
