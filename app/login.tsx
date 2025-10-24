@@ -4,7 +4,7 @@ import { GoogleAuthProvider, signInWithCredential } from 'firebase/auth';
 import React from 'react';
 import { View } from 'react-native';
 import { Button, Text } from 'react-native-paper';
-import { auth } from '../services/firebase';
+import { auth } from '../src/services/firebase';
 
 WebBrowser.maybeCompleteAuthSession();
 
